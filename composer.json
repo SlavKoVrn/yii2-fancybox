@@ -1,0 +1,25 @@
+{
+    "name": "slavkovrn/yii2-fancybox",
+    "description": "Yii2 FancyBox image galary widget uses fancyBox v2.1.5 by Janis Skarnelis",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "FancyBox Image galary widget", "jQuery FancyBox v2.1.5 by Janis Skarnelis"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://yii2.kadastrcard.ru"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/SlavKoVrn/yii2-fancybox"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "slavkovrn\\fancybox\\": "src/"
+        }
+    }
+}
